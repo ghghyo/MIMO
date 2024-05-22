@@ -1,8 +1,5 @@
-"use client"
-
-import { useRouter, useParams } from "next/navigation";
 import blogData from '@/components/data/blog-data';
-import BlogDetails from '@/components/pages/blogs/blog-details';
+import BlogDetailsClient from './BlogDetailsClient';
 
 // Function to generate static parameters
 export async function generateStaticParams() {
@@ -11,23 +8,8 @@ export async function generateStaticParams() {
     }));
 }
 
-const BlogDetail = () => {
-    const router = useRouter();
-    const params = useParams();
-    const singleData = blogData?.find((blog) => blog.id === params.id);
-
-    if (!singleData) {
-        if (typeof window !== 'undefined') {
-            router.push("/404-error");
-        }
-        return null; // Render nothing on the server
-    }
-
-    return (
-        <>
-            <BlogDetails singleData={singleData} />
-        </>
-    );
+const BlogDetailPage = ({ params }) => {
+    return <BlogDetailsClient params={params} />;
 };
 
-export default BlogDetail;
+export default BlogDetailPage;
