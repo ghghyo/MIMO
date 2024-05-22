@@ -1,20 +1,16 @@
-"use client"
-import { useParams, useRouter } from "next/navigation";
+import React from 'react';
 import portfolioData from '@/components/data/portfolio-data';
-import PortfolioDetails from "@/components/pages/portfolio/portfolio-details";
+import PortfolioDetailClient from './PortfolioDetailClient';
 
-const PortfolioDetail = () => {
-    const params = useParams();
-    const singleData = portfolioData?.find((portfolio) => portfolio.id === params.id);
-    const router = useRouter();
-    if (!singleData) {
-        return router.push("/404-error");
-    }
-    return (
-        <>
-            <PortfolioDetails singleData={singleData} />
-        </>
-    );
+// Function to generate static parameters
+export async function generateStaticParams() {
+    return portfolioData.map(item => ({
+        id: item.id.toString(),
+    }));
+}
+
+const PortfolioDetailPage = ({ params }) => {
+    return <PortfolioDetailClient params={params} />;
 };
 
-export default PortfolioDetail;
+export default PortfolioDetailPage;

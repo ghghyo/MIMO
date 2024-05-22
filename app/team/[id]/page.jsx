@@ -1,21 +1,16 @@
-"use client"
 import React from 'react';
-import { useParams, useRouter } from "next/navigation";
 import teamData from '@/components/data/team-data';
-import TeamSingle from '@/components/pages/teams/team-single';
+import TeamMembersClient from './TeamMembersClient';
 
-const TeamMembers = () => {
-    const params = useParams();
-    const teamDetails = teamData.find((team) => team.id === params.id);
-    const router = useRouter();
-    if (!teamDetails) {
-        return router.push("/404-error");
-    }
-    return (
-        <>
-            <TeamSingle teamDetails={teamDetails} />
-        </>
-    );
+// Function to generate static parameters
+export async function generateStaticParams() {
+    return teamData.map(team => ({
+        id: team.id.toString(),
+    }));
+}
+
+const TeamMembersPage = ({ params }) => {
+    return <TeamMembersClient params={params} />;
 };
 
-export default TeamMembers;
+export default TeamMembersPage;

@@ -1,20 +1,16 @@
-"use client"
-import { useParams, useRouter } from "next/navigation";
-import ServicesSingle from '@/components/pages/services/service-single';
+import React from 'react';
 import servicesData from '@/components/data/services-data';
+import ServicesDetailClient from './ServicesDetailClient';
 
-const ServicesDetail = () => {
-    const params = useParams();
-    const serviceDetails = servicesData?.find((service) => service.id === params.id);
-    const router = useRouter();
-    if (!serviceDetails) {
-        return router.push("/404-error");
-    }
-    return (
-        <>
-            <ServicesSingle serviceDetails={serviceDetails} />
-        </>
-    );
+// Function to generate static parameters
+export async function generateStaticParams() {
+    return servicesData.map(service => ({
+        id: service.id.toString(),
+    }));
+}
+
+const ServicesDetailPage = ({ params }) => {
+    return <ServicesDetailClient params={params} />;
 };
 
-export default ServicesDetail;
+export default ServicesDetailPage;
