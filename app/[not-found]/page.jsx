@@ -1,5 +1,5 @@
-import ErrorPage from '@/components/pages/error';
 import React from 'react';
+import NotFoundClient from './NotFoundClient';
 
 // Function to generate static parameters
 export async function generateStaticParams() {
@@ -8,11 +8,7 @@ export async function generateStaticParams() {
 }
 
 const NotFound = () => {
-    return (
-        <>
-            <ErrorPage />
-        </>
-    );
+    return <NotFoundClient />;
 };
 
 export default NotFound;
