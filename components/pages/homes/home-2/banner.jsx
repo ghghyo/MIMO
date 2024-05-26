@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Autoplay, Pagination} from 'swiper/modules';
-import bannerBg1 from "../../../../public/assets/img/banner/banner-1c.jpg";
-import bannerBg2 from "../../../../public/assets/img/banner/banner-1c.jpg";
+import bannerBg1 from "../../../../public/assets/img/banner/front_1.jpg";
+import bannerBg2 from "../../../../public/assets/img/banner/front_1.jpg";
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
 

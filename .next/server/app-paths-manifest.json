@@ -1,4 +1,4 @@
 {
-  "/home-two/page": "app/home-two/page.js",
-  "/404/page": "app/404/page.js"
+  "/not-found": "app/not-found.js",
+  "/home-two/page": "app/home-two/page.js"
 }

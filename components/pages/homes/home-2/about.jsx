@@ -2,8 +2,8 @@ import shape1 from "../../../../public/assets/img/shape/about-1.png";
 import shape2 from "../../../../public/assets/img/shape/about-1-dark.png";
 import shape3 from "../../../../public/assets/img/shape/about-2.png";
 import shape4 from "../../../../public/assets/img/shape/about-2-dark.png";
-import image1 from "../../../../public/assets/img/about/about-1c.jpg";
-import image2 from "../../../../public/assets/img/about/about-2c.jpg";
+import image1 from "../../../../public/assets/img/about/front_1.jpg";
+import image2 from "../../../../public/assets/img/about/front_2.jpg";
 import avatar from "../../../../public/assets/img/avatar/avatar-1.jpg";
 import Count from "../../common/count";
 import Link from "next/link";
@@ -28,7 +28,7 @@ const About = () => {
                         <div className="about__one-left">
                             <div className="about__one-left-image">
                                 <img className="one" src={image1.src} alt="about-image" />
-                                <img className="two" src={image2.src} alt="about-image" />
+                                
                             </div>
                             <div className="about__one-left-experience">
                                 <h1><Count number={aboutData?.count}/>+</h1>
