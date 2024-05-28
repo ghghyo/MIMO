@@ -34,7 +34,7 @@ const ServicesSingleMain = ({serviceDetails}) => {
                                     <div className="all__sidebar-help-image">
                                         <img className="img__full" src="../assets/img/pages/help.jpg" alt="image" />
                                         <div className="all__sidebar-help-image-content">
-                                            <img src="../assets/img/favicon-1.png" alt="icon" />
+                                            <img src="../assets/img/favicon-1.jpg" alt="icon" />
                                             <h4>We're Always ready for help You</h4>
                                             <Link className="btn-one" href="/contact">Need Help<i className="far fa-chevron-double-right"></i></Link>
                                         </div>

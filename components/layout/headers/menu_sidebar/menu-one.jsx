@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo1 from "../../../../public/assets/img/MIMOtrans.jpg";
+import logo1 from "../../../../public/assets/img/MIMOcolor.jpg";
 import ResponsiveMenu from "../responsive-menu";
 
 const MobileMenuOne = ({ isOpen, setIsOpen }) => {
@@ -8,7 +8,7 @@ const MobileMenuOne = ({ isOpen, setIsOpen }) => {
         <div className={`menu__bar-popup ${isOpen ? "show" : ""}`}>
             <div className="menu__bar-popup-top">
                 <div className="logo">
-                    <Link href="/"><Image src={logo1} alt='logo' className="rounded-full" width="auto" priority /></Link>
+                    <Link href="/home-two"><Image src={logo1} alt='logo' className="rounded-full" width="auto" priority /></Link>
                 </div>
                 <div className="close" onClick={() => setIsOpen(false)}>
                     <i className="fal fa-times"></i>

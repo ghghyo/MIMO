@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import logo2 from "../../../public/assets/img/MIMOtrans.jpg";
+import logo2 from "../../../public/assets/img/MIMOcolor.jpg";
 import Social from '@/components/data/social';
 
 const SideBar = ({ isOpen, setIsOpen }) => {

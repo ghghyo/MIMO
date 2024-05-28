@@ -41,7 +41,7 @@ const FooterTwo = () => {
                         <div className="col-xl-4 col-lg-4 col-md-6 lg-mb-30">
                             <div className="footer__two-widget">
                                 <div className="footer__two-widget-about">
-                                    <Link href="/">
+                                    <Link href="/home-two">
                                         <img className="f_logo" src={logo1.src} alt="logo" />
                                         <img className="all_f_logo" src={logo2.src} alt="logo" />
                                     </Link>
@@ -98,7 +98,7 @@ const FooterTwo = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-12">
-                                <p>Copyright 2024  <Link href="/">MIMO</Link> - All Rights Reserved</p>
+                                <p>Copyright 2024  <Link href="/home-two">MIMO</Link> - All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

@@ -7,14 +7,15 @@ const MainMenu = () => {
             <ul>
                 <li className='menu-item-has-children'><Link href='#'>Home</Link>
                     <ul className='sub-menu'>
-                        <li><Link href='/'>Splash Page</Link></li>
+                        <li><Link href='/home-two'>Splash Page</Link></li>
                         {/* <li><Link href='/home-two'>Consulting Business</Link></li>
                         <li><Link href='/home-three'>Business Solutions</Link></li> */}
                     </ul>
                 </li>  
                  <li className='menu-item-has-children'><Link href='#'>Pages</Link>
-                   {/* <ul className='sub-menu'>
+                   <ul className='sub-menu'>
                         <li><Link href='/about-us'>About Us</Link></li>
+                        {/*
                         <li className='menu-item-has-children'><Link href='#'>Services</Link>
                             <ul className='sub-menu'>
                                 <li><Link href='/services'>Services 01</Link></li>
@@ -35,11 +36,11 @@ const MainMenu = () => {
                             </ul>
                         </li>
                         <li><Link href='/request-quote'>Request Quote</Link></li>
-                        <li><Link href='/404-error'>404 Page</Link></li>
-                    </ul> */}
+                        <li><Link href='/404-error'>404 Page</Link></li>*/}
+                    </ul> 
                 </li>
-                <li className='menu-item-has-children'><Link href='#'>Project</Link>
-                    {/* <ul className='sub-menu'>
+                 {/* <li className='menu-item-has-children'><Link href='#'>Project</Link>
+                   <ul className='sub-menu'>
                         <li><Link href='/portfolio-filter'>Project Filter</Link></li>
                         <li className='menu-item-has-children'><Link href='#'>Project Grid</Link>
                             <ul className='sub-menu'>
@@ -49,8 +50,8 @@ const MainMenu = () => {
                             </ul>
                         </li>
                         <li><Link href='/portfolio/business-analytics'>Project Details</Link></li>
-                    </ul>*/}
-                </li>
+                    </ul>
+                </li>*/}
                 <li className='menu-item-has-children'><Link href='#'>Blog</Link>
                     {/*<ul className='sub-menu'>
                         <li><Link href='/blog'>Blog Grid</Link></li>

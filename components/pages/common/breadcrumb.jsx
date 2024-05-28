@@ -11,7 +11,7 @@ const BreadCrumb = ({title, innerTitle}) => {
                         <div className="page__banner-content">
                             <span>{firstThreeWords}</span>
                             <ul>
-                                <li><Link href="/">Home</Link><span>|</span></li>
+                                <li><Link href="/home-two">Home</Link><span>|</span></li>
                                 <li>{innerTitle}</li>
                             </ul>
                             <h1>{title}</h1>

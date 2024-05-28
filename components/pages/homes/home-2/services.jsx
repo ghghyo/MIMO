@@ -31,9 +31,9 @@ const Services = () => {
                                 <div className="services__one-item-icon">
                                     {data.icon}
                                 </div>
-                                <h4><Link href={`/`}>{data.title}</Link></h4>
+                                <h4><Link href={`/home-two`}>{data.title}</Link></h4>
                                 <p>{data.description}</p>
-                                <Link className="simple-btn-2" href={`/`}>Read More<i className="far fa-chevron-double-right"></i></Link>
+                                <Link className="simple-btn-2" href={`/home-two`}>Read More<i className="far fa-chevron-double-right"></i></Link>
                             </div>
                         </div>
                     ))}

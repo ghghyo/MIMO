@@ -1,4 +1,7 @@
 {
-  "/not-found": "app/not-found.js",
+  "/request-quote/page": "app/request-quote/page.js",
+  "/portfolio-filter/page": "app/portfolio-filter/page.js",
+  "/portfolio/2-columns/page": "app/portfolio/2-columns/page.js",
+  "/about-us/page": "app/about-us/page.js",
   "/home-two/page": "app/home-two/page.js"
 }

@@ -1,7 +1,7 @@
 import servicesData from "@/components/data/services-data";
 import Social from "@/components/data/social";
 import Link from "next/link";
-import logo from "../../../public/assets/img/MIMOtrans.jpg";
+import logo from "../../../public/assets/img/MIMOcolor.jpg";
 
 const FooterOne = () => {
     const servicesD = servicesData.slice(0, 4);
@@ -14,7 +14,7 @@ const FooterOne = () => {
                         <div className="col-xl-3 col-md-6 col-sm-7 xl-mb-30">
                             <div className="footer__one-widget">
                                 <div className="footer__one-widget-about">
-                                    <Link href="/"><img className="rounded-full" src={logo.src} alt="logo" /></Link>
+                                    <Link href="/home-two"><img className="rounded-full" src={logo.src} alt="logo" /></Link>
                                     <p>Welcome to MIMO Strategies, your premier partner in driving business success.</p>
                                     <div className="footer__one-widget-about-social">
                                         <Social />
@@ -76,7 +76,7 @@ const FooterOne = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-12">
-                                <p>Copyright 2024  <Link href="/">MIMO</Link> - All Rights Reserved</p>
+                                <p>Copyright 2024  <Link href="/home-two">MIMO</Link> - All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

@@ -18,7 +18,7 @@ const About = () => {
         author_name: '',
         author_sub: '',
         btn_title: 'Discover More',
-        btn_link: '/'
+        btn_link: '/about-us'
     }
     return (
         <div className="about__one dark__image section-padding">

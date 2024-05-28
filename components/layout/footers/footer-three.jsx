@@ -33,7 +33,7 @@ const FooterThree = () => {
                         <div className="col-xl-4 col-lg-5 col-md-7 md-mb-30">
                             <div className="footer__three-widget">
                                 <div className="footer__three-widget-about">
-                                    <Link href="/">
+                                    <Link href="/home-two">
                                         <img className="dark-n" src={logo1.src} alt="logo" />
                                         <img className="light-n" src={logo2.src} alt="logo" />
                                     </Link>
@@ -97,7 +97,7 @@ const FooterThree = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-12">
-                                <p>Copyright 2024  <Link href="/">MIMO</Link> - All Rights Reserved</p>
+                                <p>Copyright 2024  <Link href="/home-two">MIMO</Link> - All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

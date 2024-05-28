@@ -6,8 +6,8 @@ import Search from './search';
 import { useEffect, useState } from 'react';
 import SideBar from './offcanvas';
 import MobileMenuOne from './menu_sidebar/menu-one';
-import logo1 from "../../../public/assets/img/MIMOtrans.jpg";
-import logo2 from "../../../public/assets/img/MIMOtrans.jpg";
+import logo1 from "../../../public/assets/img/MIMOcolor.jpg";
+import logo2 from "../../../public/assets/img/MIMOcolor.jpg";
 
 const HeaderOne = ({variant}) => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -49,7 +49,7 @@ const HeaderOne = ({variant}) => {
                     <div className="header__area-menubar">
                         <div className="header__area-menubar-left">
                             <div className="header__area-menubar-left-logo">
-                                <Link href='/'>
+                                <Link href='/home-two'>
                                     <img className='dark-n h-24' src={logo1.src} alt='logo' />
                                     <img className="light-n" src={logo2.src} alt="logo" />
                                 </Link>
@@ -76,7 +76,7 @@ const HeaderOne = ({variant}) => {
                                     </div>
                                 </div>
                                 <div className="header__area-menubar-right-box-btn">
-                                <Link className="btn-one" href="/">Request quote<i className="far fa-chevron-double-right"></i></Link>
+                                <Link className="btn-one" href="/request-quote">Request quote<i className="far fa-chevron-double-right"></i></Link>
                                 </div>
                                 <div className="header__area-menubar-right-responsive-menu menu__bar">
                                     <i className="flaticon-menu" onClick={() => setMenuSidebar(true)}></i>
