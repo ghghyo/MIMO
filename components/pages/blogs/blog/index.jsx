@@ -4,19 +4,19 @@ import SEO from "@/components/data/seo";
 import HeaderOne from "@/components/layout/headers/header-one";
 import BreadCrumb from "../../common/breadcrumb";
 import BlogGridMain from "./blog-grid";
-import FooterTwo from "@/components/layout/footers/footer-two";
+import FooterOne from "@/components/layout/footers/footer-one";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 
 
 const BlogGrid = () => {
     return (
         <>
-            <SEO pageTitle='Blog Grid' />
+            <SEO pageTitle='Blogs' />
             <HeaderOne />
-            <BreadCrumb title="Blog Grid" innerTitle="Blog Grid" />
+            <BreadCrumb title="Blogs" innerTitle="Blogs" />
             <BlogGridMain />
             <div className='all-footer'>
-                <FooterTwo />
+                <FooterOne />
             </div>
             <ScrollToTop />
         </>

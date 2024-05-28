@@ -20,17 +20,17 @@ const ResponsiveMenu = () => {
         <li className='menu-item-has-children'>
             <Link href='#'>Home</Link>
             <ul className='sub-menu' style={activeSubMenu("home")}>
-                <li><Link href='/'>Main Business</Link></li>
-                {/* <li><Link href='/home-two'>Consulting Business</Link></li>
-                <li><Link href='/home-three'>Business Solutions</Link></li> */}
+                <li><Link href='/'>Main Page</Link></li>
+                 <li><Link href='/home-two'>Consulting Business</Link></li>
+                <li><Link href='/home-three'>MIMO Cities</Link></li> 
             </ul>
             <a className={`mean-expand ${activeIcon("home")}`} onClick={() => active("home")}></a>
         </li>  
-        {/*<li className='menu-item-has-children'>
+        <li className='menu-item-has-children'>
             <Link href='#'>Pages</Link>
             <ul className='sub-menu' style={activeSubMenu("pages")}>
                 <li><Link href='/about-us'>About Us</Link></li>
-                <li><Link href='/pricing-plans'>Price Plans</Link></li>
+                {/* <li><Link href='/pricing-plans'>Price Plans</Link></li>
                 <li><Link href='/faq'>FAQ's</Link></li>
                 <li><Link href='/testimonial'>Testimonials</Link></li>
 				<li className='menu-item-has-children'><Link href='#'>Teams</Link>
@@ -44,11 +44,11 @@ const ResponsiveMenu = () => {
                     <a className={`mean-expand ${activeIcons("team")}`} onClick={() => actives("team")}></a>
 				</li>
                 <li><Link href='/request-quote'>Request Quote</Link></li>
-                <li><Link href='/404-error'>404 Page</Link></li>
+                <li><Link href='/404-error'>404 Page</Link></li> */}
             </ul>
             <a className={`mean-expand ${activeIcon("pages")}`} onClick={() => active("pages")}></a>
         </li>
-		<li className='menu-item-has-children'><Link href='#'>Services</Link>
+		{/* <li className='menu-item-has-children'><Link href='#'>Services</Link>
             <ul className='sub-menu' style={activeSubMenu("services")}>
 				<li><Link href='/services'>Services 01</Link></li>
 				<li><Link href='/services-two'>Services 02</Link></li>
@@ -70,24 +70,24 @@ const ResponsiveMenu = () => {
                 <li><Link href='/portfolio/business-analytics'>Project Details</Link></li>
             </ul>
             <a className={`mean-expand ${activeIcon("project")}`} onClick={() => active("project")}></a>
-        </li>
+        </li>*/}
         <li className='menu-item-has-children'><Link href='#'>Blog</Link>
             <ul className='sub-menu' style={activeSubMenu("blog")}>
-                <li><Link href='/blog'>Blog Grid</Link></li>
-                <li><Link href='/blog-standard'>Blog Standard</Link></li>
-                <li><Link href='/blog/revamp-your-business-with-expert-consulting'>Blog Details</Link></li>
+                <li><Link href='/blog'>Blog</Link></li>
+                {/* <li><Link href='/blog-standard'>Blog Standard</Link></li>
+                <li><Link href='/blog/revamp-your-business-with-expert-consulting'>Blog Details</Link></li>*/}
             </ul>
             <a className={`mean-expand ${activeIcon("blog")}`} onClick={() => active("blog")}></a>
         </li>
         <li className='menu-item-has-children'><Link href='#'>Contact</Link>
             <ul className='sub-menu' style={activeSubMenu("contact")}>
-                <li><Link href='/contact'>Contact Style 01</Link></li>
-                <li><Link href='/contact-two'>Contact Style 02</Link></li>
-                <li><Link href='/contact-three'>Contact Style 03</Link></li>
-                <li><Link href='/contact-four'>Contact Style 04</Link></li>
+                <li><Link href='/contact'>Contact Us</Link></li>
+                <li><Link href='/contact-two'>Calendar</Link></li>
+                {/* <li><Link href='/contact-three'>Contact Style 03</Link></li>
+                <li><Link href='/contact-four'>Contact Style 04</Link></li>*/}
             </ul>
             <a className={`mean-expand ${activeIcon("contact")}`} onClick={() => active("contact")}></a>
-            </li>    */}  
+            </li>     
     </ul>  
     </>
   );

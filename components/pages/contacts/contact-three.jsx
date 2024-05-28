@@ -59,8 +59,7 @@ const ContactThree = () => {
                         <div className="col-xl-6 col-lg-6 lg-mb-30">
                             <div className="contact__three-left mr-40 xl-mr-0">
                                 <div className="contact__three-left-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830894606!2d-74.11976383964463!3d40.69766374865767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1652012644726!5m2!1sen!2sbd" loading="lazy"></iframe>
-                                </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246856.3154163635!2d-77.15466112187083!3d38.889931185944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b9c7b7733c07%3A0x1f6be5f8efb19864!2sWashington%2C%20DC%2C%20USA!5e0!3m2!1sen!2sus!4v1687890531865!5m2!1sen!2sus" loading="lazy"></iframe>                                </div>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6">

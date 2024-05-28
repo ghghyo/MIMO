@@ -6,7 +6,7 @@ const BlogSidebar = () => {
     const blogPost = blogData.slice(0, 3);
     return (
         <div className="all__sidebar ml-25 xl-ml-0">
-            <div className="all__sidebar-item">
+           {/* <div className="all__sidebar-item">
                 <h4>Search</h4>
                 <div className="all__sidebar-item-search">
                     <form action="#">
@@ -14,7 +14,7 @@ const BlogSidebar = () => {
                         <button type="submit"><i className="fal fa-search"></i></button>
                     </form>
                 </div>
-            </div>
+    </div> */}
             <div className="all__sidebar-item">
                 <h4>Recent Post</h4>
                 <div className="all__sidebar-item-post">

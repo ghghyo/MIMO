@@ -53,19 +53,19 @@ const MainMenu = () => {
                     </ul>
                 </li>*/}
                 <li className='menu-item-has-children'><Link href='#'>Blog</Link>
-                    {/*<ul className='sub-menu'>
-                        <li><Link href='/blog'>Blog Grid</Link></li>
-                        <li><Link href='/blog-standard'>Blog Standard</Link></li>
-                        <li><Link href='/blog/revamp-your-business-with-expert-consulting'>Blog Details</Link></li>
-                    </ul>*/}
+                   <ul className='sub-menu'>
+                        <li><Link href='/blog'>Blog</Link></li>
+                         {/*<li><Link href='/blog-standard'>Blog Standard</Link></li>
+                        <li><Link href='/blog/revamp-your-business-with-expert-consulting'>Blog Details</Link></li>*/}
+                    </ul>
                 </li>
                 <li className='menu-item-has-children'><Link href='#'>Contact</Link>
-                     {/*<ul className='sub-menu'>
-                        <li><Link href='/contact'>Contact Style 01</Link></li>
-                        <li><Link href='/contact-two'>Contact Style 02</Link></li>
-                        <li><Link href='/contact-three'>Contact Style 03</Link></li>
-                        <li><Link href='/contact-four'>Contact Style 04</Link></li>
-                    </ul>*/}
+                     <ul className='sub-menu'>
+                        <li><Link href='/contact'>Contact Us</Link></li>
+                         <li><Link href='/contact-two'>Calendar</Link></li>
+                        {/*<li><Link href='/contact-three'>Contact Style 03</Link></li>
+                        <li><Link href='/contact-four'>Contact Style 04</Link></li>*/}
+                    </ul>
                 </li>      
             </ul>  
         </>

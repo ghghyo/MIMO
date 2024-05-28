@@ -39,7 +39,7 @@ const WhoWeAre = () => {
                     </div>
                 </div>
             </div>    
-            <div className="about__solution" style={{backgroundImage: `url(${bgImage.src})`}}>
+            <div className="about__solution" > {/*style={{backgroundImage: `url(${bgImage.src})`}}*/}
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-8">

@@ -1,4 +1,4 @@
-import image1 from "../../public/assets/img/blog/blog-1.jpg";
+import image1 from "../../public/assets/img/blog/image1.png";
 import image2 from "../../public/assets/img/blog/blog-2.jpg";
 import image3 from "../../public/assets/img/blog/blog-3.jpg";
 import image4 from "../../public/assets/img/blog/blog-4.jpg";
@@ -13,10 +13,20 @@ const blogData = [
         id: 'revamp-your-business-with-expert-consulting',
         date: '10',
         comment: '2',
-        title: 'Revamp Your Business with Expert Consulting',
+        title: 'Expert Consulting',
         des: 'Experts say some good first steps in starting business are researching',
         image: image1,
+        p1: "test paragraph",
     },
+ 
+
+];
+
+export default blogData;
+
+{/*
+
+   
     {
         number: '02',
         id: 'drive-business-growth-with-our-consulting',
@@ -26,6 +36,7 @@ const blogData = [
         des: 'Experts say some good first steps in starting business are researching',
         image: image2,
     },
+    
     {
         number: '03',
         id: 'teaching-and-training-employees',
@@ -79,7 +90,4 @@ const blogData = [
         title: 'Maximize Potential with Expert Consulting',
         des: 'Experts say some good first steps in starting business are researching',
         image: image8,
-    },
-];
-
-export default blogData;
+    },*/}
