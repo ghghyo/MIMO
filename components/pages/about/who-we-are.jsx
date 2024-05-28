@@ -28,7 +28,7 @@ const WhoWeAre = () => {
                                         <h6>happy customer worldwide</h6>
                                     </div>
                                 </div>
-                                <Link className="btn-two" href="/about">Discover more<i className="far fa-chevron-double-right"></i></Link>
+                                <Link className="btn-two" href="/about-us">Discover more<i className="far fa-chevron-double-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-5">
@@ -49,7 +49,7 @@ const WhoWeAre = () => {
                         </div>
                         <div className="col-xl-4">
                             <div className="about__solution-right t-right xl-t-center">						
-                                <Link className="btn-one" href="/contact">Get Free Consultations<i className="far fa-chevron-double-right"></i></Link>
+                                <Link className="btn-one" href="/contacts">Book a free call<i className="far fa-chevron-double-right"></i></Link>
                                 <img className="about__solution-right-shape left-right-animate" src={shape.src} alt="shape" />
                             </div>
                         </div>

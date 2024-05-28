@@ -7,7 +7,7 @@ const AboutMain = () => {
         image_1: '/assets/img/about/about-7.jpg',
         image_2: '/assets/img/about/about-8.jpg',
         subtitle: 'Our Company',
-        title: 'Find out more about our business consulting',
+        title: 'Find out more about our business',
         description: 'Fusce quis lacus laoreet, dignissim quam eu, scelerisque tortor. Cras volutpat aliquet efficitur. Quisque dignissim justo ac erat tincidunt tristique. Curabitur id tortor ipsum. Suspendisse suscipit commodo turpis eu interdum',
         btn_text: 'Discover More',
         btn_href: '/about-us',

@@ -22,15 +22,15 @@ const History = () => {
                         <div className="company__history-area dark__image">
                             <div className="company__history-area-item">
                                 <div className="company__history-area-item-left">
-                                    <img src={image1.src} alt="image" />
+                                    {/*<img src={image1.src} alt="image" /> */}
                                 </div>
                                 <div className="company__history-area-item-right">
                                     <div className="company__history-area-item-right-content mb-50 xl-mb-30">
                                         <div className="company__history-area-item-right-content-date">
-                                            <span>2003</span>
-                                            <h5>Start Company</h5>
+                                            <span>2018</span>
+                                            <h5>Company Founded</h5>
                                         </div>
-                                        <p>Aliquam sit amet massa quis augue porta consequat eu eu lectus. Praesent a ipsum a sem tristique</p>
+                                        <p>Niloo founded the company with a specific motto in mind: Do Good Anyway</p>
                                     </div>
                                 </div>
                             </div>
@@ -38,31 +38,31 @@ const History = () => {
                                 <div className="company__history-area-items-left order-last order-lg-first">
                                     <div className="company__history-area-items-left-content mb-50 xl-mb-30">
                                         <div className="company__history-area-items-left-content-date">
-                                            <span>2008</span>
-                                            <h5>Opening Office</h5>
+                                            <span>2019</span>
+                                            <h5>First DC City Contract</h5>
                                         </div>
-                                        <p>Aliquam sit amet massa quis augue porta consequat eu eu lectus. Praesent a ipsum a sem tristique</p>
+                                        <p>MIMO Strategies completes its first DC awarded City contract and showcases its promise for Smart City initiatives</p>
                                     </div>
                                 </div>
                                 <div className="company__history-area-items-right">
                                     <div className="company__history-area-items-right-image">
-                                        <img src={image2.src} alt="image" />
+                                        {/*<img src={image1.src} alt="image" /> */}
                                     </div>
                                 </div>
                             </div>
                             <div className="company__history-area-item">
                                 <div className="company__history-area-item-left">
                                     <div className="company__history-area-item-left-image">
-                                        <img src={image3.src} alt="image" />
+                                        {/*<img src={image1.src} alt="image" /> */}
                                     </div>
                                 </div>
                                 <div className="company__history-area-item-right">
                                     <div className="company__history-area-item-right-content mb-50 xl-mb-30">
                                         <div className="company__history-area-item-right-content-date">
-                                            <span>2013</span>
+                                            <span>2022</span>
                                             <h5>Improve Management</h5>
                                         </div>
-                                        <p>Aliquam sit amet massa quis augue porta consequat eu eu lectus. Praesent a ipsum a sem tristique</p>
+                                        <p>MIMO Strategies improves management across the telecom industry for 7+ companies</p>
                                     </div>
                                 </div>
                             </div>
@@ -70,22 +70,22 @@ const History = () => {
                                 <div className="company__history-area-items-left order-last order-lg-first">
                                     <div className="company__history-area-items-left-content mb-50 xl-mb-30">
                                         <div className="company__history-area-items-left-content-date">
-                                            <span>2018</span>
+                                            <span>2023</span>
                                             <h5>Open Research Team</h5>
                                         </div>
-                                        <p>Aliquam sit amet massa quis augue porta consequat eu eu lectus. Praesent a ipsum a sem tristique</p>
+                                        <p>MIMO strategies conducts research on the latest 5G technological advances and presents at renowned conference</p>
                                     </div>
                                 </div>
                                 <div className="company__history-area-items-right">
                                     <div className="company__history-area-items-right-image">
-                                        <img src={image4.src} alt="imafe" />
+                                        {/*<img src={image1.src} alt="image" /> */}
                                     </div>
                                 </div>
                             </div>
                             <div className="company__history-area-item">
                                 <div className="company__history-area-item-left">
                                     <div className="company__history-area-item-left-image">
-                                        <img src={image5.src} alt="imafe" />
+                                       {/*<img src={image1.src} alt="image" /> */}
                                     </div>
                                 </div>
                                 <div className="company__history-area-item-right">
@@ -94,7 +94,7 @@ const History = () => {
                                             <span>2024</span>
                                             <h5>Winning Award</h5>
                                         </div>
-                                        <p>Aliquam sit amet massa quis augue porta consequat eu eu lectus. Praesent a ipsum a sem tristique</p>
+                                        <p>MIMO Strategies awarded for being a top company in the Telecom Industry </p>
                                     </div>
                                 </div>
                             </div>

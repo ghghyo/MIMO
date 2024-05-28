@@ -28,7 +28,7 @@ const About = () => {
                         <div className="about__one-left">
                             <div className="about__one-left-image">
                                 <img className="one" src={image1.src} alt="about-image" />
-                                
+                                <img className="two block sm:hidden" src={image2.src} alt="about-image" />
                             </div>
                             <div className="about__one-left-experience">
                                 <h1><Count number={aboutData?.count}/>+</h1>
