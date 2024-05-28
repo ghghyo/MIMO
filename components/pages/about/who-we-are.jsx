@@ -15,16 +15,16 @@ const WhoWeAre = () => {
                             <div className="company__two-left">
                                 <div className="company__two-left-title">
                                     <span className="subtitle-one">Who we are</span>
-                                    <h2>best company Especially in Business</h2>
-                                    <p>Aenean ac vulputate nibh, sed fringilla metus. Pellentesque porttitor felis eu nunc feugiat, nec condimentum magna ultricies. Nam vitae est accumsan nunc</p>
+                                    <h2>Telecom and Smart Cities Consulting</h2>
+                                    <p>We are a global management consulting firm providing strategic advisory, business development, market research, and training services to the mobile data industry.</p>
                                 </div>
                                 <div className="company__two-left-skill">
                                     <div className="company__two-left-skill-item">
-                                        <h2><Count number={89} />k</h2>
+                                        <h2><Count number={89} /></h2>
                                         <h6>Project Completed Last Years</h6>
                                     </div>
                                     <div className="company__two-left-skill-item">
-                                        <h2><Count number={73} />k</h2>
+                                        <h2><Count number={103} /></h2>
                                         <h6>happy customer worldwide</h6>
                                     </div>
                                 </div>

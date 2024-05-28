@@ -8,7 +8,7 @@ const AboutMain = () => {
         image_2: '/assets/img/about/about-8.jpg',
         subtitle: 'Our Company',
         title: 'Find out more about our business',
-        description: 'Fusce quis lacus laoreet, dignissim quam eu, scelerisque tortor. Cras volutpat aliquet efficitur. Quisque dignissim justo ac erat tincidunt tristique. Curabitur id tortor ipsum. Suspendisse suscipit commodo turpis eu interdum',
+        description: 'We are a consulting firm specializing in telecommunications, 5G, and smart cities. Our expertise lies in providing strategic advisory, business development, and innovative solutions to help our clients navigate the complexities of the telecom industry. With a focus on leveraging the latest advancements in 5G technology, we enable the transformation of urban environments into smart cities, enhancing connectivity, efficiency, and sustainability. Our team of seasoned professionals is dedicated to delivering tailored services that drive growth, optimize performance, and ensure our clients stay at the forefront of technological innovation.',
         btn_text: 'Discover More',
         btn_href: '/about-us',
         shape_1: '/assets/img/shape/about-1.png',
@@ -26,8 +26,8 @@ const AboutMain = () => {
                                     <img src={aboutContent.image_2} alt="image" />
                                 </div>
                                 <div className="about__company-left-experience">
-                                    <h2><Count number={180} />+</h2>
-                                    <h6>Get national Award</h6>
+                                    <h2><Count number={10} />+</h2>
+                                    <h6>Awards</h6>
                                 </div>
                             </div>
                         </div>
