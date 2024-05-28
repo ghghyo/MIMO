@@ -1,4 +1,6 @@
 "use client"
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 import SEO from "@/components/data/seo";
 import HeaderOne from "@/components/layout/headers/header-one";
 import BreadCrumb from "../common/breadcrumb";
@@ -6,6 +8,21 @@ import FooterOne from "@/components/layout/footers/footer-one";
 import ScrollToTop from "../common/scroll/scroll-to-top";
 
 const ContactUs = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_4upf3lm', 'template_pi8d3xo', form.current, 'fEgi7f9F5IJP3N9Rt')
+            .then((result) => {
+                console.log(result.text);
+                alert("Message sent successfully!");
+            }, (error) => {
+                console.log(error.text);
+                alert("An error occurred, please try again.");
+            });
+    };
+
     return (
         <>
             <SEO pageTitle="Contact Us" />
@@ -17,7 +34,7 @@ const ContactUs = () => {
                         <div className="col-xl-5 col-lg-5 order-last order-lg-first">
                             <div className="contact__page-form">
                                 <h3 className="mb-30">Contact Us</h3>
-                                <form action="#">	
+                                <form ref={form} onSubmit={sendEmail}>	
                                     <div className="row">
                                         <div className="col-sm-12 mb-20"> 
                                             <div className="contact__page-form-item contact-item">
@@ -51,20 +68,20 @@ const ContactUs = () => {
                                 <h2 className="mb-60 lg-mb-30">Get In Touch</h2>
                                 <div className="contact__page-info-item">
                                     <h6>Office Address<span>:</span></h6>
-                                    <span>3891 Ranchview Dr. Richardson, California 62639</span>
+                                    <span>Washington, DC</span>
                                 </div>
                                 <div className="contact__page-info-item">
                                     <h6>Email Address <span>:</span></h6>
                                     <span>
-                                        <a href="mailto:hello.info@mimostrategies.com">hello.info@mimostrategies.com</a>
-                                        <a href="mailto:info.MIMO@gmail">info.info@mimostrategies.com</a>
+                                        <a href="mailto:info@mimostrategies.com">info@mimostrategies.com</a>
+                                        
                                     </span>
                                 </div>
                                 <div className="contact__page-info-item">
                                     <h6>Phone Number<span>:</span></h6>
                                     <span>
-                                        <a href="tel:(+106)935-0120">(+106) 935-0120</a>
-                                        <a href="tel:(+107)605-0133">(+107) 605-0133</a>
+                                        <a href="tel:+1202(422)2255">+1202(422)2255</a>
+                                       
                                     </span>
                                 </div>
                             </div>
@@ -73,7 +90,7 @@ const ContactUs = () => {
                 </div>
             </div>
             <div className="contact__page-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830894606!2d-74.11976383964463!3d40.69766374865767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1652012644726!5m2!1sen!2sbd" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246856.3154163635!2d-77.15466112187083!3d38.889931185944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b9c7b7733c07%3A0x1f6be5f8efb19864!2sWashington%2C%20DC%2C%20USA!5e0!3m2!1sen!2sus!4v1687890531865!5m2!1sen!2sus" loading="lazy"></iframe>
             </div>
             <div className='all-footer'>
                 <FooterOne />
