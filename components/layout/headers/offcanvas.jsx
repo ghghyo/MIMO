@@ -39,7 +39,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
                         </div>
                         <div className="header__area-menubar-right-box-sidebar-popup-contact-item-content">
                             <span>Office Address</span>
-                            <h6><a href="#">Washington, DC</a></h6>
+                            <h6><a href="#">Shaw Castle</a></h6>
                         </div>
                     </div>
                 </div>

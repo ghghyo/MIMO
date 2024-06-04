@@ -50,7 +50,7 @@ const FooterThree = () => {
                                             <i className="far fa-map-marker-alt"></i>
                                         </div>
                                         <div className="footer__three-widget-location-item-info">
-                                            <Link href="https://google.com/maps">Washington, DC</Link>
+                                            <Link href="https://google.com/maps">Shaw Castle</Link>
                                         </div>
                                     </div>
                                     <h6>Branch Office</h6>
@@ -59,7 +59,7 @@ const FooterThree = () => {
                                             <i className="far fa-map-marker-alt"></i>
                                         </div>
                                         <div className="footer__three-widget-location-item-info">
-                                            <Link href="https://google.com/maps">Washington, DC</Link>
+                                            <Link href="https://google.com/maps">Shaw Castle</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -68,7 +68,7 @@ const ContactUs = () => {
                                 <h2 className="mb-60 lg-mb-30">Get In Touch</h2>
                                 <div className="contact__page-info-item">
                                     <h6>Office Address<span>:</span></h6>
-                                    <span>Washington, DC</span>
+                                    <span>Shaw Castle</span>
                                 </div>
                                 <div className="contact__page-info-item">
                                     <h6>Email Address <span>:</span></h6>
