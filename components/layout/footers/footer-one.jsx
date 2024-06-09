@@ -16,6 +16,7 @@ const FooterOne = () => {
                                 <div className="footer__one-widget-about">
                                     <Link href="/home-two"><img className="rounded-full" src={logo.src} alt="logo" /></Link>
                                     <p>Welcome to MIMO Strategies, your premier partner in driving business success.</p>
+                                    <p> Multiple problems in and Multiple solutions out</p>
                                     <div className="footer__one-widget-about-social">
                                         <Social />
                                     </div>
@@ -46,7 +47,7 @@ const FooterOne = () => {
                                             <Link href="https://google.com/maps">Shaw Castle</Link>
                                         </div>
                                     </div>
-                                    <h6>Branch Office</h6>
+                                    <h6>Office</h6>
                                     <div className="footer__one-widget-location-item">
                                         <div className="footer__one-widget-location-item-icon">
                                             <i className="far fa-map-marker-alt"></i>

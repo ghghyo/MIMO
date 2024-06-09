@@ -18,7 +18,7 @@ const AboutUs = () => {
         
         <AboutMain />
             <WhoWeAre />
-            <h6>“A leader must lead. Where others see obstacles, he must see opportunities. When others see problems, he must see possibilities ... Civilization is not built on a negation but on an affirmation- an affirmation of the bright and promising possibilities that the future holds for those who are enterprising enough to pursue them.” David J. Vaughan </h6>
+            <h6 className="m-8">“A leader must lead. Where others see obstacles, he must see opportunities. When others see problems, he must see possibilities ... Civilization is not built on a negation but on an affirmation- an affirmation of the bright and promising possibilities that the future holds for those who are enterprising enough to pursue them.” David J. Vaughan </h6>
             <History />
         <div className='all-footer'>
             <FooterOne />

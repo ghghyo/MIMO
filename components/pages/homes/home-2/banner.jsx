@@ -36,7 +36,7 @@ const BannerOne = () => {
                             <div className="row">
                                 <div className="col-xl-12">
                                     <div className="banner__one-content"> 
-                                        <span>Welcome to MIMO</span>
+                                        <p className="font-body text-3xl text-[#9370DB]">Welcome to MIMO</p>
                                         <h1>Business consulting advice</h1>
                                         <div className="banner__one-content-button">
                                             <div className="banner__one-content-button-item">
@@ -58,7 +58,7 @@ const BannerOne = () => {
                             <div className="row">
                                 <div className="col-xl-12">
                                     <div className="banner__one-content"> 
-                                        <span>Welcome to MIMO</span>
+                                    <p className="font-body text-3xl text-[#9370DB]">Welcome to MIMO</p>
                                         <h1>Winning Business Strategies</h1>
                                         <div className="banner__one-content-button">
                                             <div className="banner__one-content-button-item">
