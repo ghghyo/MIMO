@@ -8,7 +8,7 @@ const FooterOne = () => {
     return (
         <>
             <div className="footer__one">
-                <img className="footer__one-shape" src="assets/img/shape/footer-bg.png" alt="shape" />
+                {/* <img className="footer__one-shape" src="assets/img/shape/footer-bg.png" alt="shape" /> */}
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-3 col-md-6 col-sm-7 xl-mb-30">
@@ -28,7 +28,7 @@ const FooterOne = () => {
                                 <div className="footer__one-widget-solution">
                                     <ul>
                                         {servicesD.map((data, id) => (
-                                            <li key={id}><Link href={`/`}><i className="far fa-chevron-double-right"></i>{data.title}</Link></li>
+                                            <li key={id}><Link href={`/services/${data.id}`}><i className="far fa-chevron-double-right"></i>{data.title}</Link></li>
                                         ))}                                        
                                     </ul>
                                 </div>

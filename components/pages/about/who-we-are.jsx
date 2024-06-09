@@ -16,7 +16,7 @@ const WhoWeAre = () => {
                                 <div className="company__two-left-title">
                                     <span className="subtitle-one">Who we are</span>
                                     <h2>Telecom and Smart Cities Consulting</h2>
-                                    <p>We are a global management consulting firm providing strategic advisory, business development, market research, and training services to the mobile data industry.</p>
+                                    <p>We are a global management consulting firm providing strategic advisory, business development, market research, and training services to the mobile data industry. MIMO is a Multiple Input Multiple Output solution system</p>
                                 </div>
                                 <div className="company__two-left-skill">
                                     <div className="company__two-left-skill-item">
@@ -47,12 +47,14 @@ const WhoWeAre = () => {
                                 <h2>implement solutions & achieve goals.</h2>
                             </div>
                         </div>
+                        
                         <div className="col-xl-4">
                             <div className="about__solution-right t-right xl-t-center">						
                                 <Link className="btn-one" href="/contact">Book a free call<i className="far fa-chevron-double-right"></i></Link>
                                 <img className="about__solution-right-shape left-right-animate" src={shape.src} alt="shape" />
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>        

@@ -15,14 +15,16 @@ const MainMenu = () => {
                  <li className='menu-item-has-children'><Link href='#'>Pages</Link>
                    <ul className='sub-menu'>
                         <li><Link href='/about-us'>About Us</Link></li>
-                        {/*
-                        <li className='menu-item-has-children'><Link href='#'>Services</Link>
+                        
+                        <li className='menu-item-has-children'><Link href='/services-two'>Services</Link>
                             <ul className='sub-menu'>
-                                <li><Link href='/services'>Services 01</Link></li>
-                                <li><Link href='/services-two'>Services 02</Link></li>
-                                <li><Link href='/services/business-model'>Services Details</Link></li>
+                                <li><Link href='/services/business-model'>Consulting</Link></li>
+                                <li><Link href='/services/digital-solutions'>Digital Solutions</Link></li>
+                                <li><Link href='/services/machine-learning'>Machine Learning</Link></li>
+                                <li><Link href='/services/smart-cities'>Smart Cities</Link></li>
                             </ul>
                         </li>
+                        {/*
                         <li><Link href='/pricing-plans'>Price Plans</Link></li>
                         <li><Link href='/faq'>FAQ's</Link></li>
                         <li><Link href='/testimonial'>Testimonials</Link></li>

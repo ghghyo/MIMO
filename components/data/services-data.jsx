@@ -9,9 +9,14 @@ const servicesData = [
     {
         id: 'business-model',
         icon: <i className="flaticon-corporate"></i>,
-        title: 'Business Model',
-        description: 'We conduct a thorough analysis of your existing business model',
+        title: 'Consulting Services',
+        description: '5G Network Deployment, IoT Integration, Cellular Telecomm Solutions',
         number: '1',
+        paragraph1: 'MIMO specializes in 5G, IoT, and cellular telecom, with a strong legal background and multilingual skills.',
+        paragraph2: 'We are adept at navigating complex regulatory landscapes and global markets.',
+        info1: "13+ years of experience in Telecomm",
+        question1: "How can 5G improve my operations?",
+        answer1: "5G enhances operations with faster data transmission, real-time analytics, and improved connectivity.",
         image: image1,
     },
     {
@@ -20,6 +25,11 @@ const servicesData = [
         title: 'Digital Solutions',
         description: 'Streamline operations and improve collaboration with cloud',
         number: '2',
+        paragraph1: 'We offer cutting-edge digital solutions tailored to enhance operational efficiency and team collaboration.',
+        paragraph2: 'Our cloud-based services ensure secure and scalable digital transformation for your business.',
+        info1: "10+ years of experience in cloud solutions",
+        question1: "How can digital solutions benefit my business?",
+        answer1: "Digital solutions streamline operations, improve collaboration, and enhance data security.",
         image: image2,
     },
     {
@@ -28,6 +38,11 @@ const servicesData = [
         title: 'Machine Learning',
         description: 'Machine Learning leverages the power of algorithms',
         number: '3',
+        paragraph1: 'Our machine learning services harness advanced algorithms to deliver predictive insights and automation.',
+        paragraph2: 'We help businesses transform data into actionable intelligence for better decision-making.',
+        info1: "8+ years of experience in machine learning",
+        question1: "How can machine learning transform my business?",
+        answer1: "Machine learning provides predictive insights, automates processes, and enhances decision-making.",
         image: image3,
     },
     {
@@ -36,8 +51,21 @@ const servicesData = [
         title: 'Smart Cities',
         description: 'We specialize in building networks that are focused on Smart Cities',
         number: '4',
+        paragraph1: 'Our expertise in smart city solutions connects urban infrastructure with innovative technology.',
+        paragraph2: 'We enable cities to become more efficient, sustainable, and responsive to residents needs.',
+        info1: "5+ years of experience in smart city projects",
+        question1: "What are the benefits of smart city solutions?",
+        answer1: "Smart city solutions enhance urban efficiency, sustainability, and quality of life for residents.",
         image: image4,
     },
+    
+];
+
+export default servicesData;
+
+{/*
+
+
     {
         id: 'business-consulting',
         icon: <i className="flaticon-creative"></i>,
@@ -53,7 +81,4 @@ const servicesData = [
         description: 'This can involve orientation for new hires, skill development,',
         number: '6',
         image: image6,
-    },
-];
-
-export default servicesData;
+    },*/}

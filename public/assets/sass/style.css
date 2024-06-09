@@ -8125,6 +8125,7 @@ FAQ CSS
 .faq__area-item-body p {
   margin-bottom: 0;
   padding: 0 30px 30px 30px;
+  visibility: visible;
 }
 
 h6.icon.collapsed {

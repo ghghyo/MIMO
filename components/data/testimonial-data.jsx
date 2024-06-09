@@ -1,4 +1,4 @@
-import avatar1 from "../../public/assets/img/avatar/avatar-1.jpg";
+import avatar1 from "../../public/assets/img/avatar/support.jpg";
 import avatar2 from "../../public/assets/img/avatar/avatar-2.jpg";
 import avatar3 from "../../public/assets/img/avatar/avatar-3.jpg";
 import avatar4 from "../../public/assets/img/avatar/avatar-4.jpg";
@@ -11,9 +11,16 @@ const testimonialData = [
         service: 'Services Quality',
         name: 'Richerd William',
         position: 'Developer',
-        des: 'Aenean a felis consequat, varius orci ut, varius metus. Donec iaculis leo turpis, vitae sagittis massa luctus feugiat.',
+        des: 'I had an amazing experience working with MIMO Strategies!',
         avatar: avatar1,
     },
+
+];
+
+export default testimonialData;
+
+{/*
+
     {
         id: '02',
         service: 'Customer Support',
@@ -53,7 +60,4 @@ const testimonialData = [
         position: 'Developer',
         des: 'Aenean a felis consequat, varius orci ut, varius metus. Donec iaculis leo turpis, vitae sagittis massa luctus feugiat.',
         avatar: avatar6,
-    },
-];
-
-export default testimonialData;
+    },*/}

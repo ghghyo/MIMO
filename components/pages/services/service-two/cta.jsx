@@ -3,8 +3,9 @@ import ctaBg from ".././../../../public/assets/img/pages/getInTouchThree.jpg";
 
 const ServiceCta = () => {
     return (
-        <div className="cta__two" style={{backgroundImage: `url(${ctaBg.src})`}}>
-            <img className="cta__two-shape left-right-animate2" src="assets/img/shape/getInTouch.png" alt="shape" />
+        <div className="cta__two" >
+            {/* style={{backgroundImage: `url(${ctaBg.src})`}}
+            <img className="cta__two-shape left-right-animate2" src="assets/img/shape/getInTouch.png" alt="shape" />*/}
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-xl-6 col-lg-5 lg-mb-30">
@@ -29,7 +30,7 @@ const ServiceCta = () => {
                                     <i className="fal fa-envelope"></i>
                                 </div>
                                 <div>
-                                    <span>Mail us anytime</span>
+                                    <span>Email us anytime</span>
                                     <h6><Link href="mailto:info@mimostrategies.com">info@mimostrategies.com</Link></h6>
                                 </div>
                             </div>

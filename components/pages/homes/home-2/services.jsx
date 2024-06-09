@@ -8,7 +8,7 @@ const Services = () => {
         subtitle: 'OUR SOLUTIONS',
         title: 'Consulting Services',
         btn_text: 'ALL SERVICES',
-        btn_link: '/'
+        btn_link: '/services-two'
     }
     return (
         <div className="services__one section-padding pt-0">
@@ -31,9 +31,9 @@ const Services = () => {
                                 <div className="services__one-item-icon">
                                     {data.icon}
                                 </div>
-                                <h4><Link href={`/home-two`}>{data.title}</Link></h4>
+                                <h4><Link href={`/services/${data.id}`}>{data.title}</Link></h4>
                                 <p>{data.description}</p>
-                                <Link className="simple-btn-2" href={`/home-two`}>Read More<i className="far fa-chevron-double-right"></i></Link>
+                                <Link className="simple-btn-2" href={`/services/${data.id}`}>Read More<i className="far fa-chevron-double-right"></i></Link>
                             </div>
                         </div>
                     ))}
