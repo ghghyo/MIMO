@@ -97,7 +97,7 @@ const FooterThree = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-12">
-                                <p>Copyright 2024  <Link href="/home-two">MIMO</Link> - All Rights Reserved</p>
+                                <p>Copyright © 2024  <Link href="/home-two">MIMO</Link> - All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
