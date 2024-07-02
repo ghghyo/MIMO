@@ -3,7 +3,7 @@ import shape2 from "../../../../public/assets/img/shape/about-1-dark.png";
 import shape3 from "../../../../public/assets/img/shape/about-2.png";
 import shape4 from "../../../../public/assets/img/shape/about-2-dark.png";
 import image1 from "../../../../public/assets/img/about/front_1.jpg";
-import image2 from "../../../../public/assets/img/about/front_2.jpg";
+import image2 from "../../../../public/assets/img/banner/front_1.jpg";
 import avatar from "../../../../public/assets/img/avatar/avatar-1.jpg";
 import Count from "../../common/count";
 import Link from "next/link";
