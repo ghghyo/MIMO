@@ -44,9 +44,10 @@ const FooterOne = () => {
                                             <i className="far fa-map-marker-alt"></i>
                                         </div>
                                         <div className="footer__one-widget-location-item-info">
-                                            <Link href="https://google.com/maps">Shaw Castle</Link>
+                                            <Link href="https://google.com/maps">Washington, DC 20001 <br /> Shaw Castle</Link>
                                         </div>
                                     </div>
+                                    {/*
                                     <h6>Office</h6>
                                     <div className="footer__one-widget-location-item">
                                         <div className="footer__one-widget-location-item-icon">
@@ -56,6 +57,7 @@ const FooterOne = () => {
                                             <Link href="https://google.com/maps">Shaw Castle</Link>
                                         </div>
                                     </div>
+                                    */}
                                 </div>
                             </div>
                         </div>

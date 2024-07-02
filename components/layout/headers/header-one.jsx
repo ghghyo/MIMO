@@ -30,7 +30,7 @@ const HeaderOne = ({variant}) => {
                     <div className="row">
                         <div className="col-xl-5 col-md-6">
                             <div className="top__bar-left">
-                                <Link href="https://www.google.com/maps"><i className="far fa-map-marker-alt"></i>Shaw Castle</Link>
+                                <Link href="https://www.google.com/maps"><i className="far fa-map-marker-alt"></i>Washington DC, 20001</Link>
                             </div>
                         </div>
                         <div className="col-xl-7 col-md-6">
