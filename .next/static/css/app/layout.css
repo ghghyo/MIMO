@@ -487,6 +487,10 @@ video {
 .m-8{
   margin: 2rem;
 }
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -522,6 +526,15 @@ video {
 }
 .mt-\[8\%\]{
   margin-top: 8%;
+}
+.mt-10{
+  margin-top: 2.5rem;
+}
+.ml-10{
+  margin-left: 2.5rem;
+}
+.mt-8{
+  margin-top: 2rem;
 }
 .block{
   display: block;
@@ -583,6 +596,9 @@ video {
 }
 .overflow-hidden{
   overflow: hidden;
+}
+.overflow-x-hidden{
+  overflow-x: hidden;
 }
 .rounded-full{
   border-radius: 9999px;
