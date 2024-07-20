@@ -521,20 +521,14 @@ video {
 .mt-60{
   margin-top: 15rem;
 }
+.mt-8{
+  margin-top: 2rem;
+}
 .mt-\[10\%\]{
   margin-top: 10%;
 }
 .mt-\[8\%\]{
   margin-top: 8%;
-}
-.mt-10{
-  margin-top: 2.5rem;
-}
-.ml-10{
-  margin-left: 2.5rem;
-}
-.mt-8{
-  margin-top: 2rem;
 }
 .block{
   display: block;

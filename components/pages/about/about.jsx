@@ -7,10 +7,10 @@ const AboutMain = () => {
         image_1: '/assets/img/about/about-7.jpg',
         image_2: '/assets/img/about/about-8.jpg',
         subtitle: 'Our Company',
-        title: 'Find out more about our business',
+        title: 'Telecom IA and Smart Cities',
         description: 'We are a consulting firm specializing in telecommunications, 5G, and smart cities. Our expertise lies in providing strategic advisory, business development, and innovative solutions to help our clients navigate the complexities of the telecom industry. With a focus on leveraging the latest advancements in 5G technology, we enable the transformation of urban environments into smart cities, enhancing connectivity, efficiency, and sustainability. Our team of seasoned professionals is dedicated to delivering tailored services that drive growth, optimize performance, and ensure our clients stay at the forefront of technological innovation.',
         btn_text: 'Discover More',
-        btn_href: '/about-us',
+        btn_href: '/faq',
         shape_1: '/assets/img/shape/about-1.png',
         shape_2: '/assets/img/shape/about-2.png',
     }

@@ -15,20 +15,24 @@ const WhoWeAre = () => {
                             <div className="company__two-left">
                                 <div className="company__two-left-title">
                                     <span className="subtitle-one">Who we are</span>
-                                    <h2>Telecom and Smart Cities Consulting</h2>
-                                    <p>We are a global management consulting firm providing strategic advisory, business development, market research, and training services to the mobile data industry. MIMO is a Multiple Input Multiple Output solution system</p>
+                                    <h2>Membership affiliations</h2>
+                                    <p>We are a member of Smart City Council and WWLF Wireless Womens Leadership Forum, The Fourth Effect.</p>
                                 </div>
                                 <div className="company__two-left-skill">
-                                    <div className="company__two-left-skill-item">
-                                        <h2><Count number={89} /></h2>
-                                        <h6>Project Completed Last Years</h6>
-                                    </div>
-                                    <div className="company__two-left-skill-item">
-                                        <h2><Count number={103} /></h2>
-                                        <h6>happy customer worldwide</h6>
-                                    </div>
-                                </div>
-                                <Link className="btn-two" href="/about-us">Discover more<i className="far fa-chevron-double-right"></i></Link>
+    <div className="company__two-left-skill-item">
+        <a href="https://www.smartcitiescouncil.com/members/dr-niloo-niya" target="_blank" rel="noopener noreferrer">
+            <img src="https://images.squarespace-cdn.com/content/v1/65708bcbbcb88d2cba1c270d/b65a6621-7c56-4a11-909b-6b7751d971b4/TFE+Logo+White+on+Dark+Blue.jpg?format=1500w" alt="TFE Logo" style={{ width: '100px', height: 'auto' }} />
+        </a>
+        <h6>The Fourth Effect</h6>
+    </div>
+    <div className="company__two-left-skill-item">
+        <a href="https://www.smartcitiescouncil.com/members/mimo-strategies-llc" target="_blank" rel="noopener noreferrer">
+            <img src="https://media.licdn.com/dms/image/D4E12AQGn4NGR0Ku_Cw/article-cover_image-shrink_720_1280/0/1701273728862?e=2147483647&v=beta&t=9Ts6biU-5nZPQZNYOzJM_Uo7PaGeRAaZ-ddL8385_j4" alt="WWLF Logo" style={{ width: '100px', height: 'auto' }} />
+        </a>
+        <h6>WWLF</h6>
+    </div>
+</div>
+                                <Link className="btn-two" href="/faq">Discover more<i className="far fa-chevron-double-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-5">

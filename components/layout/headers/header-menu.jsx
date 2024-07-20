@@ -24,6 +24,7 @@ const MainMenu = () => {
                                 <li><Link href='/services/smart-cities'>Smart Cities</Link></li>
                             </ul>
                         </li>
+                        <li><Link href='/faq'>Core Competencies</Link></li>
                         {/*
                         <li><Link href='/pricing-plans'>Price Plans</Link></li>
                         <li><Link href='/faq'>FAQ's</Link></li>

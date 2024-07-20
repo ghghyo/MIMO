@@ -26,7 +26,7 @@ const ServicesSingleMain = ({serviceDetails}) => {
                                     <div className="all__sidebar-item-download">
                                         <ul>
                                             <li><Link href="#"><div><i className="fa-light fa-file-word"></i>Download File</div><span className="fal fa-arrow-to-bottom"></span></Link></li>
-                                            <li><Link href="#"><div><i className="fa-light fa-file-pdf"></i>Download PDF</div><span className="fal fa-arrow-to-bottom"></span></Link></li>
+                                            {/* <li><Link href="#"><div><i className="fa-light fa-file-pdf"></i>Download PDF</div><span className="fal fa-arrow-to-bottom"></span></Link></li> */}
                                         </ul>                            
                                     </div>
                                 </div>

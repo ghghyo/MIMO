@@ -22,7 +22,7 @@ const ContactTwo = () => {
                                 </div>
                                 <h4>Office Location</h4>
                                 <span>You are welcome to visit our office</span>
-                                Shaw Castle
+                                Washington DC NW, 20001
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 md-mb-30">

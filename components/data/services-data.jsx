@@ -9,7 +9,7 @@ const servicesData = [
     {
         id: 'business-model',
         icon: <i className="flaticon-corporate"></i>,
-        title: 'Consulting Services',
+        title: 'Private 5G Network and IOT Devices',
         description: '5G Network Deployment, IoT Integration, Cellular Telecomm Solutions',
         number: '1',
         paragraph1: 'MIMO specializes in 5G, IoT, and cellular telecom, with a strong legal background and multilingual skills.',
@@ -22,7 +22,7 @@ const servicesData = [
     {
         id: 'digital-solutions',
         icon: <i className="flaticon-consultant-services"></i>,
-        title: 'Digital Solutions',
+        title: 'Modernization and Digital Solutions',
         description: 'Streamline operations and improve collaboration with cloud',
         number: '2',
         paragraph1: 'We offer cutting-edge digital solutions tailored to enhance operational efficiency and team collaboration.',
@@ -35,7 +35,7 @@ const servicesData = [
     {
         id: 'machine-learning',
         icon: <i className="flaticon-data-science"></i>,
-        title: 'Machine Learning',
+        title: 'AI and Machine Learning',
         description: 'Machine Learning leverages the power of algorithms',
         number: '3',
         paragraph1: 'Our machine learning services harness advanced algorithms to deliver predictive insights and automation.',
@@ -48,7 +48,7 @@ const servicesData = [
     {
         id: 'smart-cities',
         icon: <i className="flaticon-analysis"></i>,
-        title: 'Smart Cities',
+        title: 'Smart Cities Solutions',
         description: 'We specialize in building networks that are focused on Smart Cities',
         number: '4',
         paragraph1: 'Our expertise in smart city solutions connects urban infrastructure with innovative technology.',
