@@ -27,7 +27,7 @@ const BlogGrid = () => {
             <HeaderOne />
                                     {/* <BreadCrumb title="Blogs" innerTitle="Blogs" />
             <BlogGridMain /> */}
-            <div id="tagembed-container" className='tagembed-widget mt-8 mx-2' style={{ width: "100%", height: "100%" }} data-widget-id="154968" view-url="https://widgets.tagembed.com/154968"></div>
+            <div id="tagembed-container" className='tagembed-widget mt-8 mx-2' style={{ width: "100%", height: "100%" }} data-widget-id="157784" view-url="https://widgets.tagembed.com/157784"></div>
             <div className='w-full'>
                 <FooterOne />
             </div>
